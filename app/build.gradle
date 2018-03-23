@@ -26,6 +26,10 @@ dependencies {
     implementation 'com.squareup.retrofit2:retrofit:2.3.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
     implementation 'com.rmtheis:tess-two:8.0.0'
+    implementation fileTree (dir: 'libs', includes: ['*.jar'])
+    implementation files ('libs/google-api-translate-java-0.97.jar')
+
+
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
