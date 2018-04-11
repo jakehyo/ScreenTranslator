@@ -11,6 +11,7 @@ import android.widget.ImageButton;
  */
 
 public class OptionsActivity extends AppCompatActivity {
+
     private ImageButton mainButton;
 
     @Override
@@ -23,12 +24,12 @@ public class OptionsActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(),MainActivity.class);
                 startActivity(i);
-                setContentView(R.layout.main_ui);
+
             }
         });
     }
     public void wireWidgets(){
-        mainButton=findViewById(R.id.options_button);
+        mainButton=findViewById(R.id.app_button);
 
     }
 }

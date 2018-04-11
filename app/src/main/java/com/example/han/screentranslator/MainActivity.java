@@ -21,9 +21,8 @@ public class MainActivity extends AppCompatActivity {
         optionsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(),OptionsActivity.class);
-                startActivity(i);
-                setContentView(R.layout.options);
+                Intent k = new Intent(getApplicationContext(),OptionsActivity.class);
+                startActivity(k);
             }
         });
     }
